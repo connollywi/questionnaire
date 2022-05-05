@@ -1,0 +1,21 @@
+Construct a simple questionnaire runner:
+
+The questionnaire should ask a series of yes/no questions based on the question data below.
+When the questionnaire is run it should ask the below questions and record a Yes/No answer.
+Answers will need to be persisted so they can be used in calculations for subsequent runs.
+At the end of the test run it should give a rating out of 100 for the current run:
+
+(100 * number of Yes answers / number of questions)
+
+as well as an average rating for all runs.
+
+Question data:
+
+
+Question Name
+---------------------------
+Can you code in Ruby?
+Can you code in Javascript?
+Can you code in Swift (iOS)?
+Can you code in Java (Android)?
+Can you code in C#
